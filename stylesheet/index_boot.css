@@ -75,6 +75,10 @@ h3 {
   margin-bottom: 20px;
   color: #444;
 }
+
+.font-small {
+  font-size: 15px;
+}
 /*   Second block End   */
 
 /*   Third block End   */
@@ -83,6 +87,14 @@ h3 {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
 }
 
 .events-title {
@@ -94,6 +106,8 @@ h3 {
 .event {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+
   margin-top: 30px;
   margin-bottom: 20px;
   width: 100%;
@@ -102,7 +116,7 @@ h3 {
 .event-name {
   font-size: 20px;
   padding: 10px;
-  width: 50%;
+  width: 40%;
 }
 
 span {
@@ -111,7 +125,7 @@ span {
 }
 
 .event-image {
-  width: 50%;
+  width: 40%;
   height: 330px;
 }
 /*   Third block End   */
